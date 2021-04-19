@@ -1,0 +1,99 @@
+# Отчёт о тестировании по установке IntelliJ IDEA под Windows 8 64 bit
+
+## Краткое описание
+
+19 апреля 2021 было проведено Installation Testing  приложения IntelliJ IDEA под Windows 8 64 bit.
+
+На тестирование затрачено: 30 минут.
+
+В результате тестирования выявлены следующие дефекты:
+* Дефекты не обнаружены
+* https://user-images.githubusercontent.com/79724555/114927445-c1fb7380-9e31-11eb-9b3d-6239751692ef.png
+
+## Описание процесса тестирования
+
+В процессе тестирования использовались следующие артефакты:
+* Руководство по установке IntelliJ IDEA под Windows.
+
+
+Тестирование производилось в следующем окружении:
+ноутбук Aspire V3-772
+
+Окружение: ОС windows 8 6.2.9200 сборка 9200
+
+Версия JDK "11.0.10" 2021-01-19
+
+Версия IntelliJ IDEA 2021.1 (Community Edition)
+Build #IC-211.6693.111, built on April 6, 2021
+Runtime version: 11.0.10+9-b1341.35 amd64
+VM: Dynamic Code Evolution 64-Bit Server VM by JetBrains s.r.o.
+Windows 8 6.2
+GC: G1 Young Generation, G1 Old Generation
+Memory: 982M
+Cores: 8
+Kotlin: 211-1.4.32-release-IJ6693.72
+
+Google Chrome Версия 89.0.4389.128 (Официальная сборка), (64 бит)
+* В процессе тестирования использовался инсталятор
+jetbrains-toolbox-1.20.7940.exe
+
+# Отчёт о тестировании программы KeyValidator
+Краткое описание
+19 апреля 2021 были проведены smoke test, пользовательское тестирование по позитивному и негативному сценарию приложения KeyValidator.
+
+На тестирование затрачено: 1 час.
+
+На smoke test дефектов не выявлено приложение запускается и совместимо с Java 11
+
+В результате тестирования выявлены следующие дефекты:
+
+https://github.com/ARyabtsev79/KeyValidator/issues/2#issue-860080693
+Описание процесса тестирования
+В процессе тестирования использовались следующие артефакты:
+
+Руководство использования KeyValidator
+В качестве тестовых данных использовались данные из руководства использования KeyValidator: Ключи для проверки
+
+Валидные ключи:
+
+8f05e6a7-70e9-33d7-bfe7-b19eae0d899
+
+b295bc63-9f03-3b4b-af80-969b39f8c262
+
+c19a8cf9-5c3a-37c5-b7f3-d16d38a0c180
+
+2fb98b44-93e7-3bdd-a2ad-79347bfe4ad1
+
+
+Невалидные ключи:
+
+80b427f8-92cd-3aae-ba04-03927fbe17c6
+
+387eedc6-12e9-3b32-9881-63b6b5e85317
+
+18252235-78e0-44a5-8720-556f0c7da17a
+
+e66075b6-ddad-445e-baf6-161b3289522b
+
+b6d53250-f07e-4352-a293-6102ddf7f1ca
+
+c2bc778a-1cb9-46c6-b435-0489649d2a42
+
+Тестирование производилось в следующем окружении:
+ноутбук Aspire V3-772
+
+Окружение: ОС windows 8 6.2.9200 сборка 9200
+
+Версия JDK "11.0.10" 2021-01-19
+
+Версия IntelliJ IDEA 2021.1 (Community Edition)
+Build #IC-211.6693.111, built on April 6, 2021
+Runtime version: 11.0.10+9-b1341.35 amd64
+VM: Dynamic Code Evolution 64-Bit Server VM by JetBrains s.r.o.
+Windows 8 6.2
+GC: G1 Young Generation, G1 Old Generation
+Memory: 982M
+Cores: 8
+Kotlin: 211-1.4.32-release-IJ6693.72
+
+Google Chrome Версия 89.0.4389.128 (Официальная сборка), (64 бит)
